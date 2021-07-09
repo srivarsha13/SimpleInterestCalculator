@@ -1,4 +1,76 @@
-body {background-color:tan;}
-h1{color:green;}
+body {
+    font-family: Arial;
+}
+
+header h1 {
+    width: 600px;
+    color:gray;
+    text-align: center;
+    font-size: 30px;
+    margin: auto;
+    /* border: 1px solid black; */
+    margin-bottom: 20px;
+    font-weight: 800;
+}
+
+#calculator {
+    width: 600px;
+    margin: auto;
+    /* border: 1px solid black; */
+    align-items: center;
+}
+
+#calculator * {
+    margin-bottom: 10px;
+}
+
+#calculator .container, #calculator #output {
+    display: flex;
+    margin: auto;
+    /* border: 1px solid black; */
+    width: 350px;
+    position: relative;
+    left: 30px;
+    font-weight: 600;
+}
+
+
+#output p {
+    margin-top: 0;
+}
+
+.desc {
+    display: block;
+    width: 125px;
+    font-weight: 600;
+    /* border: 1px solid black; */
+}
+
+.desc input {
+    display: block;
+}
+
+#value {
+    margin-left: 5px;
+    /* border: 1px solid black; */
+}
+
+#principal {
+    width: 150px;
+    border: 1px solid black;
+}
+
+#years {
+    width: 38px;
+}
+
+footer {
+    width: 600px;
+    margin: auto;
+    position: relative;
+    left: 90px;
+    margin-top: 10px;
+    font-weight: 600;
+}
 
 
